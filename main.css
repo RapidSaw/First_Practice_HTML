@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Montserrat_medium;
+    src: url(fonts/Montserrat-Medium.ttf);
+}
+
+@font-face {
+    font-family: Montserrat_extrabold;
+    src: url(fonts/Montserrat-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: Montserrat_bold;
+    src: url(fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: Montserrat_semibold;
+    src: url(fonts/Montserrat-SemiBold.ttf);
+}
+
+.orange_font {
+    color: #F37F34; 
+}
+
+.main_wrapper {
+    margin: 0 auto;
+    max-width: 1920px;
+    min-width: 800px;
+    height: auto;
+    font-family: Montserrat_medium;
+    color: #774E2E;
+}
+
+header {
+    margin: 0 auto;
+    max-width: 1170px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5.2%;
+}
+
+header .logo img {
+    width: 79px;
+    height: 79px;
+}
+
+header nav a {
+    font-family: Montserrat_medium;
+    color: #774E2E;
+    text-decoration: none;
+    margin-left: 50px;
+    transition: 0.5s;
+}
+
+header nav a:hover {
+    background-color: #774E2E;
+    color: #FFFFFF;
+    transition: 0.5s;
+    padding: 10px 10px;
+}
+
+main .top_section {
+    margin: 0 auto;
+    max-width: 1170px;
+    display: flex;
+    flex-flow: row;
+    padding-bottom: 7.8125%;
+}
+
+main .top_section .top_section_content {
+    width: 50%;
+}
+
+main .top_section .top_section_content h1 {
+    font-family: Montserrat_extrabold;
+    font-size: 110px;
+    padding-bottom: 6.7226%;
+}
+
+main .top_section .top_section_content p {
+    padding-bottom: 8.4033%;
+}
+
+main .top_section .top_section_content button {
+    width: 57.6470%;
+    height: 11.5966%;
+    font-family: Montserrat_medium;
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: #774E2E;
+    border: 0;
+    transition: 0.5s;
+}
+
+main .top_section .top_image_box {
+    width: 50%;
+}
+
+main .top_section .top_image_box img {
+    width: 100%;
+}
+
+main .top_section .top_section_content button:hover {
+    border: 1px solid #774E2E;
+    background-color: #FFFFFF;
+    color: #774E2E;
+    transition: 0.5s;
+}
+
+main .middle_section {
+    background-color: #FFF9EA;
+    padding-top: 7.8125%;
+    width: 100%;
+    height: 760px;
+}
+
+main .middle_section h1 {
+    font-family: Montserrat_bold;
+    font-size: 72px;
+    text-align: center;
+}
+
+main .middle_section .middle_section_menu {
+    max-width: 1170px;
+    margin: 4.375% auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+main .middle_section .middle_section_menu div {
+    max-width: 370px;
+    background-color: white;
+}
+
+main .middle_section .middle_section_menu div img {
+    width: 100%;
+    height: 50%;
+    margin-bottom: 36px;
+}
+
+main .middle_section .middle_section_menu div h3 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+main .middle_section .middle_section_menu div p {
+    text-align: center;
+    height: 132px;
+}
+
+main .bottom_section {
+    padding-top: 7.8125%;
+    max-width: 1170px;
+    min-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+} 
+
+main .bottom_section .bottom_content_box {
+    width: 50%;
+}
+
+main .bottom_section .bottom_content_box h1 {
+    font-family: Montserrat_bold;
+    font-size: 74px;
+    padding-bottom: 5.2173%;
+}
+
+main .bottom_section .bottom_content_box p {
+    padding-bottom: 10.436%;
+}
+
+main .bottom_section .bottom_content_box .candy_list {
+    width: 100%;
+}
+
+main .bottom_section .bottom_content_box .candy_list h3 {
+    font-family: Montserrat_semibold;
+    font-size: 24px;
+    padding-bottom: 3.4782%;    
+}
+
+main .bottom_section .bottom_content_box .candy_list ul li {
+    padding-bottom: 5px;
+    margin-left: 20px;    
+}
+
+main .bottom_section .bottom_image_box {
+    width: 50%;
+}
+
+main .bottom_section .bottom_image_box img {
+    width: 100%;    
+}
+
+footer {
+    width: 100%;
+    height: 179px;
+    background-color: #774E2E;
+    margin-top: 7.8125%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .footer_icon {
+    margin-left: 19.53%;
+}
+
+footer .footer_icon img {
+    width: 79px;
+    height: 79px;
+}
+
+footer p {
+    color: white;
+    font-size: 36px;
+    margin-right: 19.53%;
+}
+
